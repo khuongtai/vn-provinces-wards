@@ -1,0 +1,58 @@
+# Node / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript build output
+dist/
+lib/
+build/
+
+# Type declarations (if generated)
+*.d.ts
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+debug.log
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Coverage
+coverage/
+nyc_output/
+
+# Testing
+jest.config.*.json
+*.test.ts.snap
+
+# Lockfiles (optional - keep if you want to commit lockfile)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Generated JSON/data (if you don't want to commit large generated datasets)
+# Uncomment the next line if you don't want json_data checked in
+# json_data/
+
+# Excel/source data (if you don't want to commit source Excel files)
+# excel/
+
+# Mac/Linux swap / temp files
+*.swp
+*~
