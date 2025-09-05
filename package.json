@@ -1,6 +1,6 @@
 {
   "name": "vn-provinces-wards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provinces and wards of Vietnam (updated 2025). Lightweight Node.js + TypeScript library for administrative divisions.",
   "license": "MIT",
   "author": "Khuong Viet Tai <khuongviettai@outlook.com>",
@@ -8,11 +8,21 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/khuongviettai/vn-provinces-wards.git"
+    "url": "https://github.com/khuongtai/vn-provinces-wards"
   },
+  "keywords": [
+    "vietnam",
+    "provinces",
+    "wards",
+    "communes",
+    "administrative-divisions",
+    "typescript",
+    "json"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "dist",
